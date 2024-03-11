@@ -1,0 +1,18 @@
+.calculadora {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+}
